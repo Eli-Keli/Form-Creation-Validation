@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
 
     const form = document.getElementById("registration-form"); // Form Selection
     const feedbackDiv = document.getElementById("form-feedback"); // Feedback Division Selection
 
 
     //* Form Submission Event Listener
-    form.addEventListener("submit", (event) => {
+    form.addEventListener("submit", function(event)  {
         event.preventDefault() // prevent the form from submitting to the server
 
         //Todo: Retrieve User Inputs
